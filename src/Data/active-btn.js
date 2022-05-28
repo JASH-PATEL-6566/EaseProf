@@ -1,4 +1,4 @@
 export default {
-    preview: false,
-    markdown: true
+    preview: true,
+    markdown: false
 }
