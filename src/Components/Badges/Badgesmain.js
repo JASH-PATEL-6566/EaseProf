@@ -4,7 +4,7 @@ import badgesData from '../../Data/badgesData';
 import Stylediv from './Stylediv';
 import Cards from './Cards';
 
-export default function Badgesmain() {
+export default function Badgesmain(props) {
 
     const styles = badgesData.main.style.map(style => {
         return (
@@ -22,6 +22,7 @@ export default function Badgesmain() {
                 title={card.title}
                 sub={card.sub}
                 id={card.id}
+                click={props.click}
             />
         );
     })

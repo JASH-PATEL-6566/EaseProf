@@ -177,7 +177,8 @@ input[type="checkbox"].toggle:checked + label::before {
   display: flex;
   align-items: center;
   border-radius: 0.5rem;
-  width: 20rem;
+  /* width: 20rem; */
+  width: 90%;
   padding: 0.6rem;
   caret-color: var(--font-dark);
   color: var(--font-dark);
@@ -203,6 +204,11 @@ input[type="checkbox"].toggle:checked + label::before {
   padding: 0.6rem;
   caret-color: var(--font-dark);
   outline: none;
+}
+
+#w3review {
+  max-width: 90%;
+  width: 90%;
 }
 
 .header {

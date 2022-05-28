@@ -26,7 +26,6 @@ export default function MainContainer(props) {
         const link = '';
         const value = '';
         element = putvalue;
-        // console.log(element)
         setinner(prev => {
             if (linkPresent) {
                 outputHeaderData[putvalue].link = e.target.value
@@ -48,7 +47,6 @@ export default function MainContainer(props) {
             PrevSkillData.count++;
             ans = true
         }
-        // console.log(PrevSkillData.count)
         settoggle(prev => {
             skillName[toggle] = ans
             return ({
@@ -61,29 +59,26 @@ export default function MainContainer(props) {
     function socialChange(e) {
         const putvalue = e.target.getAttribute('putvalue');
         element = putvalue
-        // console.log(putvalue)
         setuser(prev => {
             PreviewSocialData[putvalue].value = e.target.value
             return (e.target.value)
         })
-        // console.log('value : ' + e.target.value)
         PreviewSocialData.count = e.target.value.length;
-        // console.log(PreviewSocialData.count)
     }
+
     function supportChange(e) {
         const putvalue = e.target.getAttribute('putvalue');
         element = putvalue
-        // console.log(putvalue)
         setuser(prev => {
             previewSupportData[putvalue].value = e.target.value
             return (e.target.value)
         })
-        // console.log('value : ' + e.target.value)
         previewSupportData.count = e.target.value.length;
-        // console.log(PreviewSocialData.count)
     }
-    // console.log(PreviewSocialData[element].value)
-    // console.log('*****************************************************')
+
+    function addBadges(e) {
+        console.log(e.target.innerText);
+    }
 
     return (
         <main className='main-container'>
@@ -100,11 +95,11 @@ export default function MainContainer(props) {
                 {props.active.Support && <Supportmain
                     onEvent={supportChange}
                 />}
-                {props.active.Badges && <Badgesmain />}
+                {props.active.Badges && <Badgesmain
+                    click={addBadges}
+                />}
             </div>}
-            {!props.active.AboutMe && <Output
-            // onEvent={output_toggle}
-            />}
+            {!props.active.AboutMe && <Output />}
             {props.active.AboutMe && <About />}
             {props.active.AboutMe && <AboutImg />}
         </main>

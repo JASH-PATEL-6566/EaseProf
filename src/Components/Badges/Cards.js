@@ -17,7 +17,7 @@ export default function Cards(props) {
         <>
             <label className='github-card-bar' htmlFor={`${props.id}`}>
                 <input type="checkbox" className='bar' id={`${props.id}`} />
-                <label className='title-name-git' htmlFor={`${props.id}`}>{props.title}</label>
+                <label className='title-name-git' onClick={props.click} htmlFor={`${props.id}`}>{props.title}</label>
             </label>
             {/* <div className='stats-sup'>
                 {props.select && (props.sub === 'stats' && { items })}
