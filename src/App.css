@@ -549,3 +549,8 @@ input[type="checkbox"].toggle:checked + label::before {
 .markdown-container * {
   margin: 0.3rem;
 }
+
+.preview_container,
+.markdown-container {
+  padding-left: 1.4rem;
+}
