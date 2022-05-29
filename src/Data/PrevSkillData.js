@@ -7,7 +7,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Cpp: {
@@ -17,7 +17,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Chash: {
@@ -27,7 +27,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Coffeescript: {
@@ -37,7 +37,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Dart: {
@@ -47,7 +47,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Go: {
@@ -57,7 +57,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Java: {
@@ -67,7 +67,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Javascript: {
@@ -77,7 +77,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Perl: {
@@ -87,7 +87,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     PHP: {
@@ -97,7 +97,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Python: {
@@ -107,7 +107,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Ruby: {
@@ -117,7 +117,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Rust: {
@@ -127,7 +127,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Typescript: {
@@ -137,7 +137,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Swift: {
@@ -147,7 +147,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     HTML5: {
@@ -157,7 +157,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     CSS3: {
@@ -167,7 +167,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Sass: {
@@ -177,7 +177,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     TailwindCSS: {
@@ -187,7 +187,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Bulma: {
@@ -197,7 +197,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Bootstarp: {
@@ -207,7 +207,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     React: {
@@ -217,7 +217,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     NextJs: {
@@ -227,7 +227,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Vue: {
@@ -237,7 +237,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     NuxtJs: {
@@ -247,7 +247,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Gatsby: {
@@ -257,7 +257,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Angular: {
@@ -267,7 +267,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     JQuery: {
@@ -277,7 +277,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     UI: {
@@ -287,7 +287,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Redux: {
@@ -297,7 +297,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Webpack: {
@@ -307,7 +307,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Babel: {
@@ -317,7 +317,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Svelte: {
@@ -327,7 +327,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
 
@@ -338,7 +338,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Express: {
@@ -348,7 +348,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     API: {
@@ -358,7 +358,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     GraphQL: {
@@ -368,7 +368,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Oracle: {
@@ -378,7 +378,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     NestJS: {
@@ -388,7 +388,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     MongoDB: {
@@ -398,7 +398,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     MySQL: {
@@ -408,7 +408,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     PostgreSQL: {
@@ -418,7 +418,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Firebase: {
@@ -428,7 +428,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Appwrite: {
@@ -438,7 +438,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Heroku: {
@@ -448,7 +448,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Flask: {
@@ -458,7 +458,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Supabase: {
@@ -468,7 +468,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     NET: {
@@ -478,7 +478,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Django: {
@@ -488,7 +488,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Lavarel: {
@@ -498,7 +498,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Flutter: {
@@ -508,7 +508,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Photoshop: {
@@ -518,7 +518,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Illustrator: {
@@ -528,7 +528,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Effects: {
@@ -538,7 +538,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Pro: {
@@ -548,7 +548,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     XD: {
@@ -558,7 +558,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Figma: {
@@ -568,7 +568,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
     Sketch: {
@@ -578,7 +578,7 @@ export default {
         select: false,
         start_tag: '<a href="',
         mid_tag: '" target="_blank" ><img src="',
-        end_tag: '" height="48" width="48" alt="',
+        end_tag: '" height="40" width="40" alt="',
         ended_tag: '"/></a>'
     },
 }
