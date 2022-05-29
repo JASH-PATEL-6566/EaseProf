@@ -485,14 +485,18 @@ input[type="checkbox"].toggle:checked + label::before {
   overflow: scroll;
 }
 .about-img-so {
-  filter: grayscale(50%);
+  filter: grayscale(20%);
   opacity: 0.5;
   margin-block: 0.6rem;
 }
 
 .img-container-about {
+  display: flex;
+  flex-direction: column;
   width: fit-content;
-  margin-left: 90%;
+  float: right;
+  margin-right: 0.5rem;
+  margin-top: 1rem;
 }
 
 .hello {
