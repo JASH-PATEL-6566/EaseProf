@@ -6,7 +6,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/c-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -16,7 +16,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -26,7 +26,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/csharp-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -36,7 +36,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/coffeescript-colored-dark.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -46,7 +46,7 @@ export default {
         img: 'https://upload.wikimedia.org/wikipedia/commons/7/7e/Dart-logo.png',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -56,7 +56,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/go-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -66,7 +66,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -76,7 +76,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -86,7 +86,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/perl-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -96,7 +96,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/php-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -106,7 +106,7 @@ export default {
         img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/121px-Python-logo-notext.svg.png',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -116,7 +116,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/ruby-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -126,7 +126,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/rust-colored-dark.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -136,7 +136,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -146,7 +146,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/swift-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -156,7 +156,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -166,7 +166,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -176,7 +176,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sass-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -186,7 +186,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -196,7 +196,7 @@ export default {
         img: 'https://bulma.io/assets/Bulma%20Icon.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -206,7 +206,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -216,7 +216,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -226,7 +226,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored-dark.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -236,7 +236,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vuejs-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -246,7 +246,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nuxtjs-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -256,7 +256,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/gatsby-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -266,7 +266,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/angularjs-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -276,7 +276,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/jquery-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -286,7 +286,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/materialui-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -296,7 +296,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/redux-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -306,7 +306,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/webpack-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -316,7 +316,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/babel-colored-dark.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -326,7 +326,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/svelte-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -337,7 +337,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -347,7 +347,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored-dark.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -357,7 +357,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/fastapi-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -367,7 +367,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/graphql-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -377,7 +377,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/oracle-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -387,7 +387,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nestjs-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -397,7 +397,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -407,7 +407,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -417,7 +417,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -427,7 +427,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/firebase-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -437,7 +437,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/appwrite-colored-dark.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -447,7 +447,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/heroku-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -457,7 +457,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/flask-colored-dark.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -467,7 +467,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/supabase-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -477,7 +477,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/dot-net-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -487,7 +487,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/django-colored-dark.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -497,7 +497,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/laravel-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -507,7 +507,7 @@ export default {
         img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/flutter-colored.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -517,7 +517,7 @@ export default {
         img: 'https://www.adobe.com/content/dam/acom/one-console/icons_rebrand/ps_appicon.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -527,7 +527,7 @@ export default {
         img: 'https://www.adobe.com/content/dam/shared/images/product-icons/svg/illustrator.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -537,7 +537,7 @@ export default {
         img: 'https://www.adobe.com/content/dam/cc/us/en/products/ccoverview/ae_cc_app_RGB.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -547,7 +547,7 @@ export default {
         img: 'https://www.adobe.com/content/dam/cct/creativecloud/business/teams/free-trial-new/desktop_premiere.svg',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -557,7 +557,7 @@ export default {
         img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/66px-Adobe_XD_CC_icon.svg.png',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -567,7 +567,7 @@ export default {
         img: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzOCA1NyIgY2xhc3M9InN2ZyI+CiAgPHBhdGggZmlsbD0iIzFhYmNmZSIgZD0iTTE5IDI4LjVhOS41IDkuNSAwIDEgMSAxOSAwIDkuNSA5LjUgMCAwIDEtMTkgMHoiLz4KICA8cGF0aCBmaWxsPSIjMGFjZjgzIiBkPSJNMCA0Ny41QTkuNSA5LjUgMCAwIDEgOS41IDM4SDE5djkuNWE5LjUgOS41IDAgMSAxLTE5IDB6Ii8+CiAgPHBhdGggZmlsbD0iI2ZmNzI2MiIgZD0iTTE5IDB2MTloOS41YTkuNSA5LjUgMCAxIDAgMC0xOUgxOXoiLz4KICA8cGF0aCBmaWxsPSIjZjI0ZTFlIiBkPSJNMCA5LjVBOS41IDkuNSAwIDAgMCA5LjUgMTlIMTlWMEg5LjVBOS41IDkuNSAwIDAgMCAwIDkuNXoiLz4KICA8cGF0aCBmaWxsPSIjYTI1OWZmIiBkPSJNMCAyOC41QTkuNSA5LjUgMCAwIDAgOS41IDM4SDE5VjE5SDkuNUE5LjUgOS41IDAgMCAwIDAgMjguNXoiLz4KPC9zdmc+Cg==',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
@@ -577,7 +577,7 @@ export default {
         img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sketch_Logo.svg/1200px-Sketch_Logo.svg.png',
         select: false,
         start_tag: '<a href="',
-        mid_tag: '"target="_blank" ><img src="',
+        mid_tag: '" target="_blank" ><img src="',
         end_tag: '" height="48" width="48" alt="',
         ended_tag: '"/></a>'
     },
