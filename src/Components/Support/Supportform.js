@@ -1,4 +1,5 @@
 import React from 'react';
+import previewSupportData from '../../Data/previewSupportData';
 
 export default function Supportform(props) {
     return (
@@ -9,7 +10,7 @@ export default function Supportform(props) {
             </div>
             <div className='span-container'>
                 <span className='pre-span'>{props.default}</span>
-                <input onChange={props.onEvent} className='input input-social' type="text" placeholder="YourUsername" putvalue={`${props.alt}`} />
+                <input onChange={props.onEvent} className='input input-social' type="text" placeholder="YourUsername" putvalue={`${props.alt}`} value={previewSupportData.bmc.value} />
             </div>
         </div>
     )

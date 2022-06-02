@@ -27,7 +27,6 @@ export default function Output(props) {
     }
 
 
-
     return (
         <div className='output-container'>
             <div className='btn-section'>
