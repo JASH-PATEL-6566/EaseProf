@@ -13,14 +13,19 @@ export default function Output(props) {
         })
         e.target.classList.add('active-btn');
         const value = e.target.getAttribute('value');
+        const ans = false;
+        if (value === 'preview') {
+            activeBtn.preview = true;
+            activeBtn.markdown = false;
+        }
+        else {
+            activeBtn.preview = false;
+            activeBtn.markdown = true;
+        }
         setactive(prev => {
-            Object.keys(prev).forEach(key => {
-                prev[key] = false;
-            })
             return (
                 {
-                    ...prev,
-                    [value]: true
+                    ...prev
                 }
             )
         })
