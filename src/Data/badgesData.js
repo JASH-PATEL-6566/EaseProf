@@ -84,32 +84,32 @@ export default {
             {
                 id: 1,
                 title: 'STATS CARD',
+                alt: "stats",
                 select: true,
                 sub: true
             },
             {
                 id: 2,
                 title: 'COMMIT STREAK',
-                select: false,
-            },
-            {
-                id: 3,
-                title: 'COMMITS GRAPH',
+                alt: "streak",
                 select: false,
             },
             {
                 id: 4,
                 title: 'TOP LANGUAGES',
+                alt: "top_language",
                 select: false,
             },
             {
                 id: 5,
-                title: 'TOP REPOSITORIES',
+                title: 'PROFILE TROPHYS',
+                alt: "profile_trophy",
                 select: false,
             },
             {
                 id: 6,
                 title: 'FOLLOWER COUNT',
+                alt: "follower_count",
                 select: false,
             },
         ],

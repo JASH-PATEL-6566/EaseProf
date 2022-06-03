@@ -1,20 +1,10 @@
 import React from 'react';
 import InfoOfForm from '../InfoOfForm';
 import badgesData from '../../Data/badgesData';
-import Stylediv from './Stylediv';
 import Cards from './Cards';
 
 export default function Badgesmain(props) {
 
-    const styles = badgesData.main.style.map(style => {
-        return (
-            <Stylediv
-                color={style.color}
-                title={style.title}
-                select={style.select}
-            />
-        );
-    })
 
     const cards = badgesData.main.Card.map(card => {
         return (
@@ -23,6 +13,7 @@ export default function Badgesmain(props) {
                 sub={card.sub}
                 id={card.id}
                 click={props.click}
+                alt={card.alt}
             />
         );
     })
@@ -33,12 +24,6 @@ export default function Badgesmain(props) {
                 title={badgesData.info.title}
                 info={badgesData.info.info}
             />
-            <div className='style-badges'>
-                <h3 className='style-badges-name'>STYLE BADGES</h3>
-                <div className='style-grid'>
-                    {styles}
-                </div>
-            </div>
             <div className='cards-field'>
                 <span className='github-name'>
                     GitHub

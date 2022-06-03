@@ -12,14 +12,17 @@ import PrevSkillData from '../Data/PrevSkillData';
 import skillName from '../Data/skillName';
 import PreviewSocialData from '../Data/PreviewSocialData';
 import previewSupportData from '../Data/previewSupportData';
-
+import checked from '../Data/checked';
+import badgesPreview from '../Data/badgesPreview';
 
 export default function MainContainer(props) {
 
     const [inner, setinner] = React.useState('')
     const [toggle, settoggle] = React.useState(skillName)
     const [user, setuser] = React.useState('')
+    const [check, setCheck] = React.useState(checked)
     let element;
+    let count = 0;
     function headerChange(e) {
         const putvalue = e.target.getAttribute('putvalue');
         const linkPresent = e.target.hasAttribute('link')
@@ -76,9 +79,23 @@ export default function MainContainer(props) {
         previewSupportData.count = e.target.value.length;
     }
 
-    function addBadges(e) {
-        console.log(e.target.innerText);
-    }
+    // function addBadges(e) {
+    //     const putvalue = e.target.getAttribute('putvalue');
+    //     let ans;
+    //     count++;
+    //     setCheck(prev => {
+    //         if (count % 2 !== 0) {
+    //             console.log(count);
+    //             ans = !checked[putvalue];
+    //         }
+
+    //         return ({
+    //             ...prev,
+    //             [prev[putvalue]]: ans
+    //         })
+    //     })
+
+    // }
 
     return (
         <main className='main-container'>

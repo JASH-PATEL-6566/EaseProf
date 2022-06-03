@@ -380,6 +380,7 @@ input[type="checkbox"].toggle:checked + label::before {
 
 .cards-field {
     padding-left: 1rem;
+    margin-top: 1rem;
 }
 
 .github-name {
@@ -557,4 +558,8 @@ input[type="checkbox"].toggle:checked + label::before {
 .preview_container,
 .markdown-container {
     padding-left: 1.4rem;
+}
+
+.output-badges {
+    margin-top: 1.2rem;
 }
