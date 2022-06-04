@@ -417,7 +417,9 @@ input[type="checkbox"].toggle:checked + label::before {
 
 .bar:checked + label {
     background-color: rgb(0, 166, 255);
+    color: black;
 }
+
 .about-container {
     display: flex;
     width: 48%;

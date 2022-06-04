@@ -87,12 +87,16 @@ export default function MainContainer(props) {
         if (contain) {
             ans = false
             e.target.classList.remove('display');
-            badgesPreview.count--;
+            if (putvalue === 'stats' || putvalue === 'streak' || putvalue === 'top_language') {
+                badgesPreview.count--;
+            }
         }
         else {
             ans = true
             e.target.classList.add('display');
-            badgesPreview.count++;
+            if (putvalue === 'stats' || putvalue === 'streak' || putvalue === 'top_language') {
+                badgesPreview.count++;
+            }
         }
 
         if (!(checked.stats && checked.streak && checked.top_language)) {

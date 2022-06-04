@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import outputHeaderData from '../../Data/outputHeaderData';
+import PreviewTrophyAndFollower from './PreviewTrophyAndFollower';
 
 export default function OutputHeader(props) {
     return (
@@ -7,6 +8,10 @@ export default function OutputHeader(props) {
             {outputHeaderData.hello.value && <h1 className='hello'>{`${outputHeaderData.hello.prev}${outputHeaderData.hello.value}`}</h1>}
             {outputHeaderData.sub.value && <h2 className='subtitle-output'>{`${outputHeaderData.sub.value}`}</h2>}
             {outputHeaderData.long.value && <p className='long-output'>{`${outputHeaderData.long.value}`}</p>}
+
+            <div className="follower-trophy">
+                <PreviewTrophyAndFollower />
+            </div>
 
             <ul className='list-output'>
                 {outputHeaderData.based.value && <li>{`${outputHeaderData.based.prev}${outputHeaderData.based.value}`}</li>}
