@@ -19,8 +19,9 @@ export default function MainContainer(props) {
 
     const [inner, setinner] = React.useState('')
     const [toggle, settoggle] = React.useState(skillName)
-    const [user, setuser] = React.useState('')
-    const [check, setCheck] = React.useState(checked)
+    const [user, setuser] = React.useState('');
+    const [check, setCheck] = React.useState(false);
+
     let element;
     let count = 0;
     function headerChange(e) {
@@ -79,23 +80,34 @@ export default function MainContainer(props) {
         previewSupportData.count = e.target.value.length;
     }
 
-    // function addBadges(e) {
-    //     const putvalue = e.target.getAttribute('putvalue');
-    //     let ans;
-    //     count++;
-    //     setCheck(prev => {
-    //         if (count % 2 !== 0) {
-    //             console.log(count);
-    //             ans = !checked[putvalue];
-    //         }
+    let i = 0;
+    function addBadges(e) {
+        const putvalue = e.target.getAttribute('putvalue');
+        const contain = e.target.classList.contains('display');
+        // console.log(e.target.checked)
+        console.log(contain);
+        let ans;
+        if (contain) {
+            ans = false
+            e.target.classList.remove('display');
+            badgesPreview.count--;
+        }
+        else {
+            ans = true
+            e.target.classList.add('display');
+            badgesPreview.count++;
+        }
 
-    //         return ({
-    //             ...prev,
-    //             [prev[putvalue]]: ans
-    //         })
-    //     })
+        if (!(checked.stats && checked.streak && checked.top_language)) {
+            count = 0;
+        }
 
-    // }
+        setCheck(prev => {
+            checked[putvalue] = ans;
+            return !prev;
+        })
+        console.log(checked)
+    }
 
     return (
         <main className='main-container'>

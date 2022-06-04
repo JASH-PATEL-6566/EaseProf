@@ -1,5 +1,5 @@
 export default {
-    count: 1,
+    count: 0,
     stats: {
         link_start: "https://github-readme-stats.vercel.app/api?username=",
         link_end: "&show_icons=true&theme=dark",
