@@ -80,12 +80,9 @@ export default function MainContainer(props) {
         previewSupportData.count = e.target.value.length;
     }
 
-    let i = 0;
     function addBadges(e) {
         const putvalue = e.target.getAttribute('putvalue');
         const contain = e.target.classList.contains('display');
-        // console.log(e.target.checked)
-        console.log(contain);
         let ans;
         if (contain) {
             ans = false
@@ -106,7 +103,6 @@ export default function MainContainer(props) {
             checked[putvalue] = ans;
             return !prev;
         })
-        console.log(checked)
     }
 
     return (
