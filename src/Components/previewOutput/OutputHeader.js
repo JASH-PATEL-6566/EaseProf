@@ -16,11 +16,11 @@ export default function OutputHeader(props) {
             <ul className='list-output'>
                 {outputHeaderData.based.value && <li>{`${outputHeaderData.based.prev}${outputHeaderData.based.value}`}</li>}
 
-                {outputHeaderData.port.value && outputHeaderData.port.link ? <li>{`${outputHeaderData.port.prev}`}<a href={`${outputHeaderData.port.link}`}>{`${outputHeaderData.port.value}`}</a></li> : ''}
+                {outputHeaderData.port.value && outputHeaderData.port.link ? <li>{`${outputHeaderData.port.prev}`}<a href={`${outputHeaderData.port.link}`} target='_blank'>{`${outputHeaderData.port.value}`}</a></li> : ''}
 
-                {outputHeaderData.contact.value && <li>{`${outputHeaderData.contact.prev}`}<a href={`mailto:${outputHeaderData.contact.email}`}>{`${outputHeaderData.contact.value}`}</a></li>}
+                {outputHeaderData.contact.value && <li>{`${outputHeaderData.contact.prev}`}<a href={`mailto:${outputHeaderData.contact.email}`} target='_blank'>{`${outputHeaderData.contact.value}`}</a></li>}
 
-                {outputHeaderData.current.value && outputHeaderData.current.link ? <li>{`${outputHeaderData.current.prev}`}<a href={`${outputHeaderData.current.link}`}>{`${outputHeaderData.current.value}`}</a></li> : ''}
+                {outputHeaderData.current.value && outputHeaderData.current.link ? <li>{`${outputHeaderData.current.prev}`}<a href={`${outputHeaderData.current.link}`} target='_blank'>{`${outputHeaderData.current.value}`}</a></li> : ''}
 
                 {outputHeaderData.learn.value && <li>{`${outputHeaderData.learn.prev}${outputHeaderData.learn.value}`}</li>}
 
