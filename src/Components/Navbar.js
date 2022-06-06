@@ -8,7 +8,7 @@ export default function Navbar(props) {
             </div>
             <div className='list'>
                 <ul className='list-container'>
-                    <li className='list-item' onClick={props.onEvent}><a className='link active-list-item' href='https://www.EaseProf.com/information' value="intro">INTRODUCTION</a></li>
+                    <li className='list-item np' onClick={props.onEvent}><a className='link active-list-item' href='https://www.EaseProf.com/information' value="intro">INTRODUCTION</a></li>
                     <li className='list-item' onClick={props.onEvent}><a className='link active-list-item' href='https://www.EaseProf.com/skill' value="Skills">SKILL</a></li>
                     <li className='list-item' onClick={props.onEvent}><a className='link active-list-item' href='https://www.EaseProf.com/social' value="Social">SOCIALS</a></li>
                     <li className='list-item' onClick={props.onEvent}><a className='link active-list-item' href='https://www.EaseProf.com/badges' value="Badges">BADGES</a></li>

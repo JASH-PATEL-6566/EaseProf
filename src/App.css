@@ -65,13 +65,13 @@ body {
     color: var(--font-dark);
 }
 
-.active-list-item {
-    color: rgb(123, 209, 255);
-}
-
 .list-item > a:hover {
     color: rgb(145, 213, 250);
     cursor: pointer;
+}
+
+.np > a {
+    color: rgb(145, 213, 250);
 }
 
 input[type="checkbox"].toggle {
