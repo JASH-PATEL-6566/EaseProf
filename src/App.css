@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
 
 :root {
+    /* border*/
+    --border-dark: rgba(245, 222, 179, 0.432);
     --bgcolor-dark: rgba(29, 29, 43, 1);
     --border-dark: rgb(179, 179, 179);
     --font-dark: white;
@@ -12,10 +14,17 @@
     --sub-info: rgb(197, 197, 197);
     /* Button color */
     --dark-button: rgb(0, 166, 255);
+    --btn-dark-dark: rgb(167, 167, 167);
+    --btn-hover-dark: rgb(129, 211, 255);
+    --copy-hover-bg: rgb(122, 122, 122);
     /* core div background */
     --core-back: rgb(41, 41, 59, 1);
     /* Output code color */
     --color-output: rgb(128, 143, 173);
+    --list-long-output: rgb(181, 185, 214, 1);
+    /* About */
+    --about-input-dark: rgb(41, 41, 59, 0.4);
+    /* Scroll Color */
     --webkit-scroll-track: rgba(29, 29, 43, 1);
     --webkit-scroll-thumb: rgb(155, 133, 133);
 }
@@ -57,7 +66,7 @@ body {
     font-size: 1.8rem;
     font-weight: 600;
     margin-left: 2rem;
-    color: rgb(61, 161, 255);
+    color: var(--dark-HeadingColor);
 }
 
 .list-container {
@@ -77,12 +86,12 @@ body {
 }
 
 .list-item > a:hover {
-    color: rgb(145, 213, 250);
+    color: var(--dark-listItemcolor);
     cursor: pointer;
 }
 
 .np > a {
-    color: rgb(145, 213, 250);
+    color: var(--dark-listItemcolor);
 }
 
 input[type="checkbox"].toggle {
@@ -120,7 +129,7 @@ input[type="checkbox"].toggle + label::after {
     width: 1.6em;
     height: 1.6rem;
     right: 1.68rem;
-    background-color: rgb(0, 166, 255);
+    background-color: var(--dark-button);
     color: var(--font-dark);
     border-radius: 0.4rem;
     margin-right: 0.25em;
@@ -134,7 +143,7 @@ input[type="checkbox"].toggle:focus + label::before {
 input[type="checkbox"].toggle:checked + label::after {
     content: "\263C";
     right: 4.7rem;
-    background-color: rgb(0, 166, 255);
+    background-color: var(--dark-button);
     transform: translateX(100%);
     transition: 200ms ease-in-out;
 }
@@ -176,7 +185,7 @@ input[type="checkbox"].toggle:checked + label::before {
 }
 
 .active-info {
-    color: rgb(197, 197, 197);
+    color: var(--sub-info);
     font-size: 1rem;
 }
 
@@ -258,32 +267,32 @@ input[type="checkbox"].toggle:checked + label::before {
     font-size: 1rem;
     font-weight: 600;
     margin-inline: 1rem;
-    background-color: rgb(167, 167, 167);
+    background-color: var(--btn-dark-dark);
     border-style: none;
     border-radius: 0.4rem;
     font-family: "Karla", sans-serif;
 }
 
 .active-btn {
-    background-color: rgb(0, 166, 255);
+    background-color: var(--dark-button);
 }
 
 .btn:hover {
-    background-color: rgb(129, 211, 255);
+    background-color: var(--btn-hover-dark);
     cursor: pointer;
 }
 
 .copy {
     margin-left: auto;
-    background-color: rgb(167, 167, 167);
+    background-color: var(--btn-dark-dark);
 }
 
 .copy:hover {
-    background-color: rgb(122, 122, 122);
+    background-color: var(--copy-hover-bg);
 }
 
 .core-div {
-    background-color: rgb(41, 41, 59, 1);
+    background-color: var(--core-back);
     margin-block: 1.2rem;
     margin-inline: 1.3em;
     padding-top: 0.1rem;
@@ -341,7 +350,7 @@ input[type="checkbox"].toggle:checked + label::before {
     display: flex;
     width: fit-content;
     align-items: center;
-    background-color: rgb(41, 41, 59, 1);
+    background-color: var(--core-back);
     width: 95%;
     margin-block: 0.4rem;
     border-radius: 0.5rem;
@@ -350,7 +359,7 @@ input[type="checkbox"].toggle:checked + label::before {
 
 .item-container:hover {
     cursor: pointer;
-    background-color: rgb(41, 41, 59, 0.4);
+    background-color: var(--about-input-dark);
 }
 
 .item-container > p {
@@ -385,7 +394,7 @@ input[type="checkbox"].toggle:checked + label::before {
     margin-top: -0.22rem;
     width: 95%;
     border-radius: 0.3rem;
-    border: 1px solid rgba(245, 222, 179, 0.432);
+    border: 1px solid var(--border-dark);
     padding-bottom: 0.3rem;
 }
 
@@ -407,7 +416,7 @@ input[type="checkbox"].toggle:checked + label::before {
 
 .github-card-bar {
     width: 97.5%;
-    background-color: rgb(41, 41, 59, 1);
+    background-color: var(--core-back);
     font-size: 1.1rem;
     display: flex;
     align-items: center;
@@ -427,7 +436,7 @@ input[type="checkbox"].toggle:checked + label::before {
 }
 
 .bar:checked + label {
-    background-color: rgb(0, 166, 255);
+    background-color: var(--dark-button);
     color: black;
 }
 
@@ -441,7 +450,7 @@ input[type="checkbox"].toggle:checked + label::before {
 
 .about-name {
     font-size: 2rem;
-    color: rgb(0, 166, 255);
+    color: var(--dark-button);
 }
 
 .form-group-about {
@@ -457,7 +466,7 @@ input[type="checkbox"].toggle:checked + label::before {
 
 .about-input,
 .about-inputarea {
-    background-color: rgb(41, 41, 59, 0.4);
+    background-color: var(--about-input-dark);
     border-style: none;
     border: 1px solid rgba(173, 173, 238, 0.281);
     font-size: 1.2rem;
@@ -481,7 +490,7 @@ input[type="checkbox"].toggle:checked + label::before {
     width: fit-content;
     padding-inline: 5rem;
     padding-block: 0.5rem;
-    background-color: rgb(0, 166, 255);
+    background-color: var(--dark-button);
     border-style: none;
     border-radius: 0.5rem;
     font-size: 1.1rem;
@@ -526,11 +535,11 @@ input[type="checkbox"].toggle:checked + label::before {
 
 .long-output {
     margin-top: -0.7rem;
-    color: rgb(181, 185, 214, 1);
+    color: var(--list-long-output);
 }
 
 .list-output {
-    color: rgb(181, 185, 214, 1);
+    color: var(--list-long-output);
     font-size: 1.1rem;
     margin-top: 1.7rem;
 }
@@ -540,7 +549,7 @@ input[type="checkbox"].toggle:checked + label::before {
 }
 
 .list-output > li > a {
-    color: rgb(0, 166, 255);
+    color: var(--dark-button);
 }
 
 .output-header > p {
@@ -558,7 +567,7 @@ input[type="checkbox"].toggle:checked + label::before {
 
 .markdown-container {
     font-family: "Special Elite", cursive;
-    color: rgb(128, 143, 173);
+    color: var(--color-output);
     font-weight: 100;
     font-size: 0.95rem;
     letter-spacing: 0.1rem;
