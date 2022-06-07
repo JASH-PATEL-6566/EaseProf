@@ -23,7 +23,7 @@ export default function About() {
                     <label htmlFor='subject'>Subject :</label>
                     <input type="text" className='about-input' id="subject" name="subject" required />
 
-                    <label htmlFor='user-name'>Fullname Name :</label>
+                    <label htmlFor='user-name'>FullName :</label>
                     <input type="text" className='about-input' id="user-name" name="user-name" required />
 
                     <label htmlFor='user-email'>Email :</label>

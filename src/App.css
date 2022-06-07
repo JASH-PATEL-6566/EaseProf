@@ -5,6 +5,17 @@
     --bgcolor-dark: rgba(29, 29, 43, 1);
     --border-dark: rgb(179, 179, 179);
     --font-dark: white;
+    /* subColor */
+    --dark-HeadingColor: rgb(61, 161, 255);
+    --dark-listItemcolor: rgb(145, 213, 250);
+    /* Sub information */
+    --sub-info: rgb(197, 197, 197);
+    /* Button color */
+    --dark-button: rgb(0, 166, 255);
+    /* core div background */
+    --core-back: rgb(41, 41, 59, 1);
+    /* Output code color */
+    --color-output: rgb(128, 143, 173);
     --webkit-scroll-track: rgba(29, 29, 43, 1);
     --webkit-scroll-thumb: rgb(155, 133, 133);
 }
