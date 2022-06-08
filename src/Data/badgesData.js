@@ -108,7 +108,7 @@ export default {
             },
             {
                 id: 6,
-                title: 'FOLLOWER COUNT',
+                title: 'PROFILE VIEW',
                 alt: "follower_count",
                 select: false,
             },

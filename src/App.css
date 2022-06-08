@@ -443,7 +443,8 @@ input[type="checkbox"].toggle:checked + label::before {
 .about-container {
     display: flex;
     width: 48%;
-    padding: 2rem;
+    /* padding: 2rem; */
+    padding-inline: 2rem;
     overflow: scroll;
     /* border-right: 1px solid var(--border-dark); */
 }
@@ -457,6 +458,7 @@ input[type="checkbox"].toggle:checked + label::before {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-top: -1.55rem;
 }
 
 .form-group-about > label {

@@ -1,12 +1,12 @@
 body {
-  margin: 0;
-  font-family: "Karla", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  height: 100vh;
-  background-color: rgba(29, 29, 43, 1);
+    margin: 0;
+    font-family: "Karla", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
+    background-color: rgba(29, 29, 43, 1);
 }
 
 code {
-  font-family: "Karla", sans-serif;
+    font-family: "Karla", sans-serif;
 }
