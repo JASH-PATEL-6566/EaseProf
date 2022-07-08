@@ -510,9 +510,14 @@ input[type="checkbox"].toggle:checked + label::before {
     overflow: scroll;
 }
 .about-img-so {
-    filter: grayscale(20%);
+    filter: grayscale(80%);
     opacity: 0.5;
     margin-block: 0.6rem;
+}
+
+.about-img-so:hover {
+    filter: grayscale(0%);
+    transform: scale(1.2);
 }
 
 .img-container-about {
