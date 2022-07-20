@@ -16,7 +16,6 @@ export default function MarkdownHeader() {
             {data.learn.value && <p>*    {data.learn.sub_start}{data.learn.prev}{data.learn.tag_start}{data.learn.value}{data.learn.tag_end}{data.learn.sub_end}</p>}
             {data.open.value && <p>*    {data.open.sub_start}{data.open.prev}{data.open.tag_start}{data.open.value}{data.open.tag_end}{data.open.sub_end}</p>}
             {data.else.value && <p>*    {data.else.sub_start}{data.else.prev}{data.else.tag_start}{data.else.value}{data.else.tag_end}{data.else.sub_end}</p>}
-
             {data.based.value && data.based.main_end}
         </em>
     )

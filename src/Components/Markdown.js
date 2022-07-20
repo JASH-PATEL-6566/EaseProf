@@ -11,34 +11,34 @@ import MarkdownCenter from './MarkdownOutput/MarkdownCenter';
 import MarkdownUp from './MarkdownOutput/MarkdownUp';
 
 export default function Markdown() {
+    // console.log(document.querySelector(".markdown-contastatiner").innerHTML);
     return (
         <div className='markdown-container'>
             {/* Header Part */}
             <MarkdownHeader />
-            <div className='output-badges-up'>
-                {/* Skill part */}
-                <MarkdownUp />
-            </div>
-            <div className='output-skill'>
-                {/* Skill part */}
-                {PrevSkillData.count !== 0 && <p>{`<h2>`}Skills{`</h2>`}</p>}
-                <MarkdownSkill />
-            </div>
-            <div className='output-social'>
-                {/* Social Part*/}
-                {PreviewSocialData.count !== 0 && <p>{`<h2>`}Social{`</h2>`}</p>}
-                <MarkdownSocial />
-            </div>
-            <div className='output-badges-center'>
-                {/* Social Part*/}
-                {badgesPreview.count !== 0 && <p>{`<h2>`}Badges{`</h2>`}</p>}
-                <MarkdownCenter />
-            </div>
-            <div className='output-support'>
-                {/* Output Part */}
-                {previewSupportData.count !== 0 && <p>{`<h2>`}Support{`</h2>`}</p>}
-                {<MarkdownSupport />}
-            </div>
+
+            {/* Skill part */}
+            <MarkdownUp />
+
+
+            {/* Skill part */}
+            {PrevSkillData.count !== 0 && <p>{`<h2>`}Skills{`</h2>`}</p>}
+            <MarkdownSkill />
+
+
+            {/* Social Part*/}
+            {PreviewSocialData.count !== 0 && <p>{`<h2>`}Social{`</h2>`}</p>}
+            <MarkdownSocial />
+
+
+            {/* Social Part*/}
+            {badgesPreview.count !== 0 && <p>{`<h2>`}Badges{`</h2>`}</p>}
+            <MarkdownCenter />
+
+            {/* Output Part */}
+            {previewSupportData.count !== 0 && <p>{`<h2>`}Support{`</h2>`}</p>}
+            {<MarkdownSupport />}
+
         </div>
     )
 }
