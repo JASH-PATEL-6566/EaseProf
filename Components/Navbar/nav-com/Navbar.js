@@ -1,8 +1,12 @@
 import classes from './navbar.module.css';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 export const Navbar = () => {
     const items = ['introduction', 'skills', 'socials', 'badges', 'support', 'contact-us']
+    const router = useRouter();
+    const current = router.pathname
+
     return (
         <nav className={classes.nav}>
             <div className={classes.logo}>
@@ -11,11 +15,7 @@ export const Navbar = () => {
             <ul>
                 {items.map(item => (
                     <Link href={`/${item}`} key={item}>
-                        <li className='li' onClick={(e) => {
-                            const all = document.querySelectorAll('li');
-                            all.forEach(one => one.classList.remove('active'));
-                            e.target.classList.add('active');
-                        }}>{item.replace('-', " ")}</li>
+                        <li className={`li ${current === `/${item}` ? 'active' : ""}`}>{item.replace('-', " ")}</li>
                     </Link>
                 ))}
             </ul >

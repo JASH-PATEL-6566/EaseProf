@@ -35,13 +35,36 @@ section {
     overflow: hidden;
     position: relative;
 }
-.area {
+
+.mark-div {
+    border: 2px solid white;
     position: absolute;
-    /* top: -10000px;
-    left: -10000px; */
-    right: 0;
+    width: 50%;
+    background-color: transparent;
+    /* display: none; */
+    padding: 0 15px;
 }
 
+#markdown {
+    border-style: none;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    position: absolute;
+    width: 50% !important;
+    padding: 10px 15px;
+}
+
+.mark-div,
+textarea {
+    font-size: 20px;
+    height: 85%;
+    max-height: 85%;
+}
+
+.display_none {
+    z-index: -1111;
+}
 .main {
     display: flex;
     height: 88.9%;
@@ -83,20 +106,23 @@ section {
     cursor: pointer;
 }
 
-.prev {
-    background-color: rgb(0, 166, 255);
-}
-.prev:hover {
-    background-color: rgb(129, 211, 255);
-}
+.prev,
 .mark,
 .copy {
     background-color: rgb(167, 167, 167);
 }
 
+.prev:hover,
 .mark:hover,
 .copy:hover {
     background-color: rgb(122, 122, 122);
+}
+
+.active_btn {
+    background-color: rgb(0, 166, 255);
+}
+.active_btn:hover {
+    background-color: rgb(129, 211, 255);
 }
 
 .upper-container {
