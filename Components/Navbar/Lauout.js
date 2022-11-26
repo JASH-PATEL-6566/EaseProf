@@ -44,7 +44,7 @@ export default function Layout({ children }) {
                         <ReactMarkdown children={text} />
                     </div>
                     <div className="markdown">
-                        <textarea name="area" id="markdown" className="area toggle display_none" value={text} onChange={(e) => setText(e.target.value)}></textarea>
+                        <textarea readOnly name="area" id="markdown" className="area toggle display_none" value={text} onChange={(e) => setText(e.target.value)}></textarea>
                     </div>
                 </div>
             </main>
