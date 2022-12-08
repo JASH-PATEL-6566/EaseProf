@@ -9,7 +9,7 @@ import { useData } from '../../Context/DataContext';
 
 export default function Introduction() {
     const { changeData, data } = useData();
-    console.log(data);
+    // console.log(data);
     return (
         <>
             <Head>

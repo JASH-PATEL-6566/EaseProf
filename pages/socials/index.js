@@ -1,4 +1,3 @@
-import classes from './socials.module.css';
 import Head from 'next/head';
 import Upper from '../../Components/upperBlock/Upper';
 import SocialInput from '../../Components/Input/socialInput';

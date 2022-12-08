@@ -1,9 +1,16 @@
 import { Navbar } from "./nav-com/Navbar";
 import ReactMarkdown from 'react-markdown';
 import { useState } from "react";
+import { useData } from '../../Context/DataContext'
+import rehypeRaw from 'rehype-raw'
+
 
 export default function Layout({ children }) {
+    const { data } = useData();
+
     const [text, setText] = useState("");
+
+    const markdown = `# jash\n# jash`;
 
     const changeView = (e, value) => {
         const changeAll = document.querySelectorAll('.change');
@@ -41,10 +48,10 @@ export default function Layout({ children }) {
                     </div>
                     {/* s */}
                     <div className="toggle mark-div" id='preview'>
-                        <ReactMarkdown children={text} />
+                        <ReactMarkdown rehypePlugins={[rehypeRaw]} children={markdown} />
                     </div>
                     <div className="markdown">
-                        <textarea readOnly name="area" id="markdown" className="area toggle display_none" value={text} onChange={(e) => setText(e.target.value)}></textarea>
+                        <textarea readOnly name="area" id="markdown" className="area toggle display_none" value={markdown} onChange={(e) => setText(e.target.value)}></textarea>
                     </div>
                 </div>
             </main>
