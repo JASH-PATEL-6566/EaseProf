@@ -11,7 +11,25 @@ const defaultData = {
     currentWork: '',
     currentWork_link: '',
     collaborate: '',
-    else: ''
+    else: '',
+    // social
+    twitter: '',
+    twitter: '',
+    medium: '',
+    devto: '',
+    linkedin: '',
+    polywork: '',
+    twitch: '',
+    youtube: '',
+    discord: '',
+    instagram: '',
+    facebook: '',
+    dribbble: '',
+    behance: '',
+    codesandbox: '',
+    codepen: '',
+    stackoverflow: '',
+    rss: ''
 }
 
 const DataContext = createContext();

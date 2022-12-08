@@ -22,7 +22,15 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: "www.profileme.dev",
+        hostname: "res.cloudinary.com",
+      },
+      {
+        protocol: 'https',
+        hostname: "asset.brandfetch.io",
+      },
+      {
+        protocol: 'https',
+        hostname: "cdn2.iconfinder.com",
       },
     ]
   },

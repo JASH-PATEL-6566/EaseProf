@@ -1,138 +1,122 @@
 export const social = [
     {
+        id: 'twitter',
         title: 'TWITTER PROFILE:',
-        img: 'https://www.profileme.dev/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdanielcranney%2Freadme-generator%2Fmain%2Fpublic%2Ficons%2Fsocials%2Ftwitter.svg&w=32&q=75',
-
+        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg',
         def: 'https://www.twitter.com/',
-
         alt: 'twitter',
     },
     {
+        id: 'hashnode',
         title: 'HASHNODE PROFILE:',
-        img: 'https://www.profileme.dev/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdanielcranney%2Freadme-generator%2Fmain%2Fpublic%2Ficons%2Fsocials%2Fhashnode.svg&w=32&q=75',
-
+        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/hashnode.svg',
         def: 'https://',
         post: '.hashnode.dev',
         alt: 'hashnode',
     },
     {
+        id: 'medium',
         title: 'MEDIUM PROFILE:',
-        img: 'https://www.profileme.dev/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdanielcranney%2Freadme-generator%2Fmain%2Fpublic%2Ficons%2Fsocials%2Fmedium-dark.svg&w=32&q=75',
-
+        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium.svg',
         def: 'http://www.medium.com/',
-
         alt: 'medium',
     },
     {
+        id: 'devto',
         title: 'DEV.TO PROFILE:',
-        img: 'https://www.profileme.dev/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdanielcranney%2Freadme-generator%2Fmain%2Fpublic%2Ficons%2Fsocials%2Fdevdotto-dark.svg&w=32&q=75',
-
+        img: 'https://res.cloudinary.com/practicaldev/image/fetch/s--R9qwOwpC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/78hs31fax49uwy6kbxyw.png',
         def: 'https://www.dev.to/',
-
         alt: 'dev',
     },
     {
+        id: 'linkedin',
         title: 'LINKEDIN PROFILE:',
-        img: 'https://www.profileme.dev/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdanielcranney%2Freadme-generator%2Fmain%2Fpublic%2Ficons%2Fsocials%2Flinkedin.svg&w=32&q=75',
-
+        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg',
         def: 'https://www.linkedin.com/in/',
-
         alt: 'linkedin',
     },
     {
+        id: 'polywork',
         title: 'POLYWORK PROFILE:',
-        img: 'https://www.profileme.dev/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdanielcranney%2Freadme-generator%2Fmain%2Fpublic%2Ficons%2Fsocials%2Fpolywork.svg&w=32&q=75',
-
+        img: 'https://asset.brandfetch.io/idNBXwW0oc/idryUyCDc2.png',
         def: 'https://www.polywork.com/',
-
         alt: 'polywork',
     },
     {
+        id: 'twitch',
         title: 'TWITCH CHANNEL:',
-        img: 'https://www.profileme.dev/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdanielcranney%2Freadme-generator%2Fmain%2Fpublic%2Ficons%2Fsocials%2Ftwitch.svg&w=32&q=75',
-
+        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitch.svg',
         def: 'https://www.twitch.tv/',
-
         alt: 'twitch',
     },
     {
+        id: 'youtube',
         title: 'YOUTUBE CHANNEL:',
-        img: 'https://www.profileme.dev/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdanielcranney%2Freadme-generator%2Fmain%2Fpublic%2Ficons%2Fsocials%2Fyoutube.svg&w=32&q=75',
-
+        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg',
         def: 'https://www.youtube.com/c/',
-
         alt: 'youtube',
     },
     {
+        id: 'discord',
         title: 'DISCORD CODE:',
-        img: 'https://www.profileme.dev/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdanielcranney%2Freadme-generator%2Fmain%2Fpublic%2Ficons%2Fsocials%2Fdiscord.svg&w=32&q=75',
-
+        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg',
         def: 'https://discord.com/users/',
-
         alt: 'discord',
     },
     {
+        id: 'instagram',
         title: 'INSTAGRAM PROFILE:',
-        img: 'https://www.profileme.dev/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdanielcranney%2Freadme-generator%2Fmain%2Fpublic%2Ficons%2Fsocials%2Finstagram.svg&w=32&q=75',
-
+        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg',
         def: 'http://www.instagram.com/',
-
         alt: 'instagram',
     },
     {
+        id: 'facebook',
         title: 'FACEBOOK PROFILE:',
-        img: 'https://www.profileme.dev/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdanielcranney%2Freadme-generator%2Fmain%2Fpublic%2Ficons%2Fsocials%2Ffacebook.svg&w=32&q=75',
-
+        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg',
         def: 'https://www.facebook.com/',
-
         alt: 'facebook',
     },
     {
+        id: 'dribbble',
         title: 'DRIBBBLE PROFILE:',
-        img: 'https://www.profileme.dev/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdanielcranney%2Freadme-generator%2Fmain%2Fpublic%2Ficons%2Fsocials%2Fdribbble.svg&w=32&q=75',
-
+        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/dribbble.svg',
         def: 'https://www.dribbble.com/',
-
         alt: 'dribbble',
     },
     {
+        id: 'behance',
         title: 'BEHANCE PROFILE:',
-        img: 'https://www.profileme.dev/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdanielcranney%2Freadme-generator%2Fmain%2Fpublic%2Ficons%2Fsocials%2Fbehance.svg&w=32&q=75',
-
+        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/behance.svg',
         def: 'https://www.behance.com/',
-
         alt: 'behance',
     },
     {
+        id: 'codesandbox',
         title: 'CODESANDBOX PROFILE:',
-        img: 'https://www.profileme.dev/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdanielcranney%2Freadme-generator%2Fmain%2Fpublic%2Ficons%2Fsocials%2Fcodesandbox-dark.svg&w=32&q=75',
-
+        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/codesandbox.svg',
         def: 'https://www.codesandbox.com/',
-
         alt: 'codesandbox',
     },
     {
+        id: 'codepen',
         title: 'CODEPEN PROFILE:',
-        img: 'https://www.profileme.dev/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdanielcranney%2Freadme-generator%2Fmain%2Fpublic%2Ficons%2Fsocials%2Fcodepen-dark.svg&w=32&q=75',
-
+        img: 'https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Codepen-512.png',
         def: 'https://www.codepen.io/',
-
         alt: 'codepen',
     },
     {
+        id: 'stackoverflow',
         title: 'STACKOVERFLOW PROFILE:',
-        img: 'https://www.profileme.dev/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdanielcranney%2Freadme-generator%2Fmain%2Fpublic%2Ficons%2Fsocials%2Fstackoverflow.svg&w=32&q=75',
-
+        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/stackoverflow.svg',
         def: 'https://www.stackoverflow.com/users/',
-
         alt: 'stackoverflow',
     },
     {
+        id: 'rss',
         title: 'RSS URL:',
-        img: 'https://www.profileme.dev/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdanielcranney%2Freadme-generator%2Fmain%2Fpublic%2Ficons%2Fsocials%2Frss.svg&w=32&q=75',
-
+        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/rss.svg',
         def: 'https://',
-
         alt: 'rss',
     },
 ]

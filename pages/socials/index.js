@@ -14,7 +14,7 @@ const Socials = () => {
                     desc="Connect with your visitors by adding links to your socials."
                 />
                 <div className="social_container">
-                    <SocialInput click={(e) => console.log(e.target.getAttribute('def'))} />
+                    <SocialInput />
                 </div>
             </div>
         </>

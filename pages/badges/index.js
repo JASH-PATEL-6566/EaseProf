@@ -6,7 +6,7 @@ import BadgesCard from '../../Components/badgesCard/BadgesCard';
 const Badges = () => {
     const data = {
         title: 'GITHUB PROFILE:',
-        img: 'https://www.profileme.dev/_next/image?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdanielcranney%2Freadme-generator%2Fmain%2Fpublic%2Ficons%2Fsocials%2Fgithub-dark.svg&w=32&q=75',
+        img: 'https://cdn-icons-png.flaticon.com/512/2111/2111432.png',
         def: 'https://www.github.com/',
         alt: 'github',
     }
