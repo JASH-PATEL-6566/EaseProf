@@ -13,7 +13,7 @@ export const intro_data_upper = [
 
 export const intro_data_about = [
     {
-        di: 'base',
+        di: 'based',
         head: "🌍 I'M BASED IN:",
         place: 'India'
     },
@@ -21,7 +21,7 @@ export const intro_data_about = [
         di: 'portfolio',
         head: "🖥️ SEE MY PORTFOLIO:",
         place: "MyPortfolio",
-        link_id: "portfolio",
+        link_id: "portfolio_link",
         link_place: "link of your portfolio"
     },
     {
@@ -30,14 +30,14 @@ export const intro_data_about = [
         place: "xyz@gmail.com",
     },
     {
-        di: 'current',
+        di: 'currentWork',
         head: "🚀 I'M CURRENTLY WORKING ON:",
         place: "Your Project Name",
-        link_id: "current",
+        link_id: "currentWork_link",
         link_place: "link of your project"
     },
     {
-        di: 'current_learn',
+        di: 'collaborate',
         head: "🤝 I'M OPEN TO COLLABORATING ON:",
         place: "exciting projects",
     },

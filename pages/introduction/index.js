@@ -3,8 +3,13 @@ import Upper from '../../Components/upperBlock/Upper';
 import Input from '../../Components/Input/Input';
 import { intro_data_upper, intro_data_about } from '../../Data/intro_page';
 import DoubleInput from '../../Components/Input/DoubleInput';
+import { useData } from '../../Context/DataContext';
+
+
 
 export default function Introduction() {
+    const { changeData, data } = useData();
+    console.log(data);
     return (
         <>
             <Head>
@@ -20,7 +25,8 @@ export default function Introduction() {
                                 di={item.di}
                                 place={item.place}
                                 head={item.head}
-                                change={() => console.log("hello")}
+                                val={data[item.di]}
+                                change={(e) => changeData(item.di, e.target.value)}
                             />
                         )
                     })}
@@ -34,13 +40,18 @@ export default function Introduction() {
                                 place={item.place}
                                 link_id={item.link_id}
                                 link_place={item.link_place}
+                                val={data[item.di]}
+                                change={(e) => changeData(item.di, e.target.value)}
+                                link_value={data[item.link_id]}
+                                link_change={(e) => changeData(item.link_id, e.target.value)}
                             /> :
                                 <Input
                                     key={item.di}
                                     di={item.di}
                                     place={item.place}
                                     head={item.head}
-                                    change={() => console.log("hello")}
+                                    val={data[item.di]}
+                                    change={(e) => changeData(item.di, e.target.value)}
                                 />
                         )
                     })}

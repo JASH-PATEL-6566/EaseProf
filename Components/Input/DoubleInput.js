@@ -1,4 +1,4 @@
-export default function DoubleInput({ place, val, change, di, head, link, link_id, link_value, link_change, link_place }) {
+export default function DoubleInput({ place, val, change, di, head, link_id, link_value, link_change, link_place }) {
     return (
         <div className="normal-input">
             <label htmlFor={di} className="label">{head}</label>
