@@ -45,7 +45,10 @@ export default function Layout({ children }) {
                                 changeView(e, value);
                             }}>Markdown</button>
                         </div>
-                        <button className="copy">Copy</button>
+                        <button className="copy" onClick={() => {
+                            document.getElementById('markdown').select();
+                            document.execCommand("copy");
+                        }}>Copy</button>
                     </div>
                     {/* s */}
                     <div className="toggle mark-div" id='preview'>

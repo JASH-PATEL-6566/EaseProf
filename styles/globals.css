@@ -44,6 +44,11 @@ section {
     /* display: none; */
     padding: 0 15px;
     overflow-y: scroll;
+    word-wrap: normal;
+}
+
+textarea::selection {
+    background-color: transparent;
 }
 
 #markdown {
