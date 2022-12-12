@@ -3,8 +3,30 @@ import Head from 'next/head';
 import Upper from '../../Components/upperBlock/Upper';
 import Skill from '../../Components/skill/Skill';
 import { backend, core, frontend, other, software } from '../../Data/skill';
+import { useData } from '../../Context/DataContext';
 
 const Skills = () => {
+
+    const { appendSkill, popSkill } = useData();
+
+    const toggle = (e) => {
+        const source = e.target.getAttribute('source');
+        const img = e.target.getAttribute('src');
+        const title = e.target.getAttribute('id');
+        const item = {
+            title,
+            img,
+            ref: source
+        }
+        e.target.classList.toggle('light');
+        if (e.target.classList.contains('light')) {
+            appendSkill(item);
+        }
+        else {
+            popSkill(title)
+        }
+    }
+
     return (
         <>
             <Head>
@@ -17,15 +39,15 @@ const Skills = () => {
                 />
                 <div className="main_container">
                     {/* core */}
-                    <Skill click={(e) => console.log(e.target.getAttribute('source'))} heading={'Core'} data={core} />
+                    <Skill click={toggle} heading={'Core'} data={core} />
                     {/* frontEnd */}
-                    <Skill click={(e) => console.log(e.target.getAttribute('source'))} heading={'FrontEnd'} data={frontend} />
+                    <Skill click={toggle} heading={'FrontEnd'} data={frontend} />
                     {/* backEnd */}
-                    <Skill click={(e) => console.log(e.target.getAttribute('source'))} heading={'BackEnd'} data={backend} />
+                    <Skill click={toggle} heading={'BackEnd'} data={backend} />
                     {/* Others */}
-                    <Skill click={(e) => console.log(e.target.getAttribute('source'))} heading={'Others'} data={other} />
+                    <Skill click={toggle} heading={'Others'} data={other} />
                     {/* software */}
-                    <Skill click={(e) => console.log(e.target.getAttribute('source'))} heading={'Software'} data={software} />
+                    <Skill click={toggle} heading={'Software'} data={software} />
                 </div>
             </div>
         </>

@@ -2,6 +2,7 @@ import { useState } from "react";
 import { createContext, useContext } from "react";
 
 const defaultData = {
+    total: 0,
     name: '',
     subtitle: '',
     based: '',
@@ -29,7 +30,8 @@ const defaultData = {
     codesandbox: '',
     codepen: '',
     stackoverflow: '',
-    rss: ''
+    rss: '',
+    skill: [],
 }
 
 const DataContext = createContext();
@@ -39,14 +41,26 @@ export function useData() {
 
 export default function DataProvider({ children }) {
     const [data, setData] = useState(defaultData);
-
+    console.log(data.total);
     const changeData = (id, value) => {
         setData({ ...data, [id]: value })
     }
 
+    const appendSkill = (value) => {
+        setData({ ...data, skill: [...data.skill, value] })
+    }
+
+    const popSkill = (value) => {
+        let skill = data.skill;
+        let newSkill = skill.filter((item) => item.title !== value)
+        setData({ ...data, skill: newSkill })
+    }
+
     const value = {
         data,
-        changeData
+        changeData,
+        appendSkill,
+        popSkill
     }
 
     return (

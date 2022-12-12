@@ -10,7 +10,9 @@ export default function Layout({ children }) {
 
     const [text, setText] = useState("");
 
-    const markdown = `<h1 align="center">${data.name !== '' ? `👋 Hola, I'm ${data.name}` : ''}</h1>\n\n<h3 align="center">${data.subtitle}</h3>\n\n${data.based !== '' ? `- 🌍 I'm based in **${data.based}**` : ''}\n${(data.portfolio !== '' && data.portfolio_link !== '') ? `- 🖥️ See my protfolio *<u><a href=${data.portfolio_link} target="_blank">${data.portfolio}</a></u>*` : ''}\n${(data.contact !== '') ? `- ✉️ Contact Me At *<u><a href=${`mailto:${data.contact}`} target="_blank">${data.contact}</a></u>*` : ''}\n${(data.currentWork !== '' && data.currentWork_link !== '') ? `- 🚀 I'm currently working on *<u><a href=${data.currentWork_link} target="_blank">${data.currentWork}</a></u>*` : ''}${data.collaborate !== '' ? `- 🤝 I'm open to Collaborating on **${data.collaborate}**` : ''}\n${data.else !== '' ? `- ${data.else}` : ''}`;
+    const markdown = `${data.name !== '' ? `<h1 align="center">👋 Hola, I'm ${data.name}</h1>` : ''}\n\n${data.subtitle !== '' ? `<h3 align="center">${data.subtitle}</h3>` : ''}\n\n${data.based !== '' ? `- 🌍 I'm based in **${data.based}**` : ''}\n${(data.portfolio !== '' && data.portfolio_link !== '') ? `- 🖥️ See my protfolio *<u><a href=${data.portfolio_link} target="_blank">${data.portfolio}</a></u>*` : ''}\n${(data.contact !== '') ? `- ✉️ Contact Me At *<u><a href=${`mailto:${data.contact}`} target="_blank">${data.contact}</a></u>*` : ''}\n${(data.currentWork !== '' && data.currentWork_link !== '') ? `- 🚀 I'm currently working on *<u><a href=${data.currentWork_link} target="_blank">${data.currentWork}</a></u>*` : ''}\n${data.collaborate !== '' ? `- 🤝 I'm open to Collaborating on **${data.collaborate}**` : ''}\n${data.else !== '' ? `- ${data.else}` : ''}\n${data.skill.length > 0 ? `<h2>Skills</h2>` : ''}\n${data.skill.map(item => (
+        `<a href=${item.ref} target="_blank" ><img src=${item.img} height="40" width="40" alt=${item.title}/>\n`
+    )).join('')}`;
 
     const changeView = (e, value) => {
         const changeAll = document.querySelectorAll('.change');

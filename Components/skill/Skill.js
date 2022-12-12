@@ -17,7 +17,9 @@ export default function Skill({ click, heading, data }) {
                         onClick={click}
                         alt={title}
                         key={title}
-                        className="img"
+                        id={title}
+                        className="img_skill"
+                        title={title}
                     />
                 )
             })}

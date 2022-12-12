@@ -60,7 +60,7 @@ section {
 
 .mark-div,
 textarea {
-    font-size: 20px;
+    font-size: 17px;
     height: 80%;
     max-height: 80%;
 }
@@ -198,8 +198,14 @@ textarea {
     margin-bottom: 0.5em;
 }
 
-.skill_container .img {
+.skill_container .img_skill {
     margin: 0.08em 0.24em;
+    cursor: pointer;
+    opacity: 0.2;
+}
+
+.light {
+    opacity: 1 !important;
 }
 
 .social_container,
