@@ -1,6 +1,5 @@
 import { Navbar } from "./nav-com/Navbar";
 import ReactMarkdown from 'react-markdown';
-import { useState } from "react";
 import { useData } from '../../Context/DataContext'
 import rehypeRaw from 'rehype-raw'
 
@@ -8,9 +7,9 @@ import rehypeRaw from 'rehype-raw'
 export default function Layout({ children }) {
     const { data } = useData();
 
-    const [text, setText] = useState("");
-
-    const markdown = `${data.name !== '' ? `<h1 align="center">👋 Hola, I'm ${data.name}</h1>` : ''}\n\n${data.subtitle !== '' ? `<h3 align="center">${data.subtitle}</h3>` : ''}\n\n${data.based !== '' ? `- 🌍 I'm based in **${data.based}**` : ''}\n${(data.portfolio !== '' && data.portfolio_link !== '') ? `- 🖥️ See my protfolio *<u><a href=${data.portfolio_link} target="_blank">${data.portfolio}</a></u>*` : ''}\n${(data.contact !== '') ? `- ✉️ Contact Me At *<u><a href=${`mailto:${data.contact}`} target="_blank">${data.contact}</a></u>*` : ''}\n${(data.currentWork !== '' && data.currentWork_link !== '') ? `- 🚀 I'm currently working on *<u><a href=${data.currentWork_link} target="_blank">${data.currentWork}</a></u>*` : ''}\n${data.collaborate !== '' ? `- 🤝 I'm open to Collaborating on **${data.collaborate}**` : ''}\n${data.else !== '' ? `- ${data.else}` : ''}\n${data.skill.length > 0 ? `<h2>Skills</h2>` : ''}\n${data.skill.map(item => (
+    const markdown = `${data.name !== '' ? `<h1 align="center">👋 Hola, I'm ${data.name}</h1>` : ''}\n\n${data.subtitle !== '' ? `<h3 align="center">${data.subtitle}</h3>` : ''}\n\n${data.based !== '' ? `- 🌍 I'm based in **${data.based}**` : ''}\n${(data.portfolio !== '' && data.portfolio_link !== '') ? `- 🖥️ See my protfolio *<u><a href=${data.portfolio_link} target="_blank">${data.portfolio}</a></u>*` : ''}\n${(data.contact !== '') ? `- ✉️ Contact Me At *<u><a href=${`mailto:${data.contact}`} target="_blank">${data.contact}</a></u>*` : ''}\n${(data.currentWork !== '' && data.currentWork_link !== '') ? `- 🚀 I'm currently working on *<u><a href=${data.currentWork_link} target="_blank">${data.currentWork}</a></u>*` : ''}\n${data.collaborate !== '' ? `- 🤝 I'm open to Collaborating on **${data.collaborate}**` : ''}\n${data.else !== '' ? `- ${data.else}` : ''}\n${data.social.length > 0 ? `<h2>Social</h2>` : ''}\n${data.social.map(item => (
+        `<a href=${item.link} target="_blank" ><img src=${item.img} height="40" width="40" alt=${item.title}/>\n`
+    )).join('')}\n${data.skill.length > 0 ? `<h2>Skills</h2>` : ''}\n${data.skill.map(item => (
         `<a href=${item.ref} target="_blank" ><img src=${item.img} height="40" width="40" alt=${item.title}/>\n`
     )).join('')}`;
 
@@ -50,7 +49,6 @@ export default function Layout({ children }) {
                             document.execCommand("copy");
                         }}>Copy</button>
                     </div>
-                    {/* s */}
                     <div className="toggle mark-div" id='preview'>
                         <ReactMarkdown rehypePlugins={[rehypeRaw]} children={markdown} />
                     </div>

@@ -32,6 +32,7 @@ const defaultData = {
     stackoverflow: '',
     rss: '',
     skill: [],
+    social: []
 }
 
 const DataContext = createContext();
@@ -41,7 +42,7 @@ export function useData() {
 
 export default function DataProvider({ children }) {
     const [data, setData] = useState(defaultData);
-    console.log(data.total);
+
     const changeData = (id, value) => {
         setData({ ...data, [id]: value })
     }
@@ -56,11 +57,48 @@ export default function DataProvider({ children }) {
         setData({ ...data, skill: newSkill })
     }
 
+    const addSocial = (value, id, img, def) => {
+        changeData(id, value);
+        if (value === '') {
+            const other = data.social.filter(item => item.title !== id);
+            setData({ ...data, social: [...other] })
+        }
+        else {
+            if (data.social.length === 0) {
+                const newData = {
+                    title: id,
+                    img,
+                    link: (def + value)
+                }
+                setData({ ...data, social: [...data.social, newData] })
+            }
+            else {
+                const present = data.social.filter(item => item.title === id);
+                if (present.length === 0) {
+                    const newData = {
+                        title: id,
+                        img,
+                        link: (def + value)
+                    }
+                    setData({ ...data, social: [...data.social, newData] })
+                }
+                else {
+                    const other = data.social.filter(item => item.title !== id);
+                    const newData = present[0];
+                    newData.link = (def + value);
+                    setData({ ...data, social: [...other, newData] })
+                }
+            }
+
+        }
+    }
+
     const value = {
         data,
         changeData,
         appendSkill,
-        popSkill
+        popSkill,
+        addSocial
     }
 
     return (

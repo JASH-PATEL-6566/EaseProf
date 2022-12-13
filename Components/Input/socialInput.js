@@ -3,7 +3,7 @@ import { social } from "../../Data/social";
 import { useData } from "../../Context/DataContext";
 
 export default function SocialInput() {
-    const { data, changeData } = useData();
+    const { data, addSocial } = useData();
     return (
         <div className='social-form'>
             {social.map(item => {
@@ -27,8 +27,10 @@ export default function SocialInput() {
                                 type="text"
                                 placeholder="YourUsername"
                                 def={def}
+                                img={img}
+                                id={id}
                                 value={data.id}
-                                onChange={(e) => changeData(id, e.target.value)}
+                                onChange={(e) => addSocial(e.target.value, id, img, def)}
                             />
                         </div>
                     </div>)
