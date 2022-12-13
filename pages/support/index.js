@@ -1,15 +1,17 @@
-import classes from './support.module.css';
 import Head from 'next/head';
 import Upper from '../../Components/upperBlock/Upper';
+import { useData } from '../../Context/DataContext';
 
 const Support = () => {
-    const data = {
+    const { data, changeData } = useData();
+
+    const dataSupport = {
         img: 'https://www.buymeacoffee.com/assets/img/guidelines/logo-mark-1.svg',
         title: 'BUY ME A COFFEE',
         alt: 'bmc',
         def: 'https://www.buymeacoffee.com/'
     }
-    const { img, alt, title, def } = data;
+    const { img, alt, title, def } = dataSupport;
     return (
         <>
             <Head>
@@ -34,7 +36,9 @@ const Support = () => {
                         </div>
                         <div className='span-container'>
                             <span className='pre-span'>{def}</span>
-                            <input className='normal-input input-social' type="text" placeholder="YourUsername" def={def} />
+                            <input value={data.Support} onChange={(e) => {
+                                changeData('support', e.target.value)
+                            }} className='normal-input input-social' type="text" placeholder="YourUsername" />
                         </div>
                     </div>
                 </div>

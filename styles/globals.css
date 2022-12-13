@@ -21,6 +21,10 @@ a {
     width: 0.3rem;
 }
 
+::-webkit-scrollbar-button {
+    visibility: hidden;
+}
+
 ::-webkit-scrollbar-track {
     background-color: rgba(29, 29, 43, 1);
 }
@@ -66,8 +70,8 @@ textarea::selection {
 .mark-div,
 textarea {
     font-size: 17px;
-    height: 80%;
-    max-height: 80%;
+    height: 79%;
+    max-height: 79%;
 }
 
 .display_none {

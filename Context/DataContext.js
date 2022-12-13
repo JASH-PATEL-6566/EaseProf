@@ -32,7 +32,20 @@ const defaultData = {
     stackoverflow: '',
     rss: '',
     skill: [],
-    social: []
+    social: [],
+    github: '',
+    stats_card_link: 'https://github-readme-stats.vercel.app/api?username=',
+    commit_streak_link: 'https://github-readme-streak-stats.herokuapp.com/?user=',
+    top_language_link: 'https://github-readme-stats.vercel.app/api/top-langs/?username=',
+    profile_trophys_link: 'https://github-profile-trophy.vercel.app/?username=',
+    profile_view_link: 'https://komarev.com/ghpvc/?username=',
+    stats_card: false,
+    commit_streak: false,
+    top_language: false,
+    profile_trophys: false,
+    profile_view: false,
+    support_link: 'https://www.buymeacoffee.com/',
+    support: ''
 }
 
 const DataContext = createContext();

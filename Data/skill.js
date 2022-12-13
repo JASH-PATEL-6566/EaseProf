@@ -319,43 +319,42 @@ export const software = [
     {
         title: 'Photoshop',
         source: 'https://www.adobe.com/uk/products/photoshop.html',
-        img: 'https://www.adobe.com/content/dam/acom/one-console/icons_rebrand/ps_appicon.svg',
+        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/photoshop-colored.svg',
 
     },
     {
         title: 'Illustrator',
         source: 'https://www.profileme.dev/adobe.com/uk/products/illustrator.html',
-        img: 'https://www.adobe.com/content/dam/shared/images/product-icons/svg/illustrator.svg',
+        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/illustrator-colored.svg',
 
     },
     {
         title: 'After Effects',
         source: 'https://www.adobe.com/uk/products/aftereffects.html',
-        img: 'https://www.adobe.com/content/dam/cc/us/en/products/ccoverview/ae_cc_app_RGB.svg',
+        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/aftereffects-colored.svg',
 
     },
     {
         title: 'Premiere Pro',
         source: 'https://www.adobe.com/uk/products/premiere.html',
-        img: 'https://www.adobe.com/content/dam/cct/creativecloud/business/teams/free-trial-new/desktop_premiere.svg',
+        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/premierepro-colored.svg',
 
     },
     {
         title: 'XD',
         source: 'https://www.adobe.com/uk/products/xd.html',
-        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/66px-Adobe_XD_CC_icon.svg.png',
+        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/xd-colored.svg',
 
     },
     {
         title: 'Figma',
         source: 'https://www.figma.com/',
-        img: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzOCA1NyIgY2xhc3M9InN2ZyI+CiAgPHBhdGggZmlsbD0iIzFhYmNmZSIgZD0iTTE5IDI4LjVhOS41IDkuNSAwIDEgMSAxOSAwIDkuNSA5LjUgMCAwIDEtMTkgMHoiLz4KICA8cGF0aCBmaWxsPSIjMGFjZjgzIiBkPSJNMCA0Ny41QTkuNSA5LjUgMCAwIDEgOS41IDM4SDE5djkuNWE5LjUgOS41IDAgMSAxLTE5IDB6Ii8+CiAgPHBhdGggZmlsbD0iI2ZmNzI2MiIgZD0iTTE5IDB2MTloOS41YTkuNSA5LjUgMCAxIDAgMC0xOUgxOXoiLz4KICA8cGF0aCBmaWxsPSIjZjI0ZTFlIiBkPSJNMCA5LjVBOS41IDkuNSAwIDAgMCA5LjUgMTlIMTlWMEg5LjVBOS41IDkuNSAwIDAgMCAwIDkuNXoiLz4KICA8cGF0aCBmaWxsPSIjYTI1OWZmIiBkPSJNMCAyOC41QTkuNSA5LjUgMCAwIDAgOS41IDM4SDE5VjE5SDkuNUE5LjUgOS41IDAgMCAwIDAgMjguNXoiLz4KPC9zdmc+Cg==',
+        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg',
 
     },
     {
         title: 'Sketch',
         source: 'https://www.sketch.com/',
-        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sketch_Logo.svg/1200px-Sketch_Logo.svg.png',
-
+        img: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sketch-colored.svg',
     },
 ]

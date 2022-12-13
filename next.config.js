@@ -32,6 +32,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: "cdn2.iconfinder.com",
       },
+      {
+        protocol: 'https',
+        hostname: "cdn.iconscout.com",
+      },
     ]
   },
 }
