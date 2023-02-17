@@ -1,0 +1,25 @@
+.nav_home {
+    padding: 0.5em 1em;
+}
+
+.logo h1 {
+    font-size: 2.5em;
+    margin: 0;
+    cursor: default;
+    transition: 1.3s ease-in-out;
+}
+
+.logo h1 span {
+    transition: 1.3s ease-in-out;
+    color: rgb(61, 161, 255);
+}
+
+.logo h1:hover {
+    transition: 1.3s ease-in-out;
+    color: rgb(61, 161, 255);
+}
+
+.logo h1:hover span {
+    transition: 1.3s ease-in-out;
+    color: white;
+}

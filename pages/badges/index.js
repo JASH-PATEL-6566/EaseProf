@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Upper from '../../Components/upperBlock/Upper';
 import BadgesCard from '../../Components/badgesCard/BadgesCard';
 import { useData } from '../../Context/DataContext';
+import Image from 'next/image'
 
 const Badges = () => {
 
@@ -11,7 +12,7 @@ const Badges = () => {
     const dataGit = {
         id: 'github',
         title: 'GITHUB PROFILE:',
-        img: 'https://cdn-icons-png.flaticon.com/512/2111/2111432.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676622359/ease-prof/social/github_hstgkq.png',
         def: 'https://www.github.com/',
         alt: 'github',
     }
@@ -28,7 +29,7 @@ const Badges = () => {
                 <div className="badges_container">
                     <div key={dataGit.alt}>
                         <div className='title-social'>
-                            <img
+                            <Image
                                 src={dataGit.img}
                                 height={20}
                                 width={20}
