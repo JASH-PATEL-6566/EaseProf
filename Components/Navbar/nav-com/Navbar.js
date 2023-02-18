@@ -10,7 +10,7 @@ export const Navbar = () => {
     return (
         <nav className={classes.nav}>
             <div className={classes.logo}>
-                <h1><span>Ease</span>Prof</h1>
+                <h1 onClick={() => router.replace('/')}><span>Ease</span>Prof</h1>
             </div>
             <ul>
                 {items.map(item => (

@@ -6,6 +6,7 @@ import NavbarHome from '../Components/Navbar/NavbarHome/NavbarHome';
 
 function MyApp({ Component, pageProps }) {
   if (Component === Home) {
+    console.log('in');
     return (
       <DataProvider>
         <NavbarHome />
@@ -13,6 +14,7 @@ function MyApp({ Component, pageProps }) {
       </DataProvider>
     )
   }
+  console.log('other');
   return (
     <DataProvider>
       <Layout>

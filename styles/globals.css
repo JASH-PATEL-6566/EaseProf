@@ -8,6 +8,32 @@ body {
     color: white;
 }
 
+footer {
+    background-color: rgb(41, 41, 59, 1);
+}
+
+.screen {
+    height: calc(100vh - 5em);
+    /* border: 2px solid wheat; */
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.screen_home,
+.screen_home_2 {
+    width: 100%;
+    height: calc(100vh - 5em);
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.screen_home_2 {
+    height: calc(100vh - 10em);
+}
+
 a {
     color: inherit;
     text-decoration: none;

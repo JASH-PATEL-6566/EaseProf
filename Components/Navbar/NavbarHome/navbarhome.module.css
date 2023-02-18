@@ -1,5 +1,11 @@
 .nav_home {
-    padding: 0.5em 1em;
+    position: fixed;
+    position: sticky;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5em;
 }
 
 .logo h1 {
