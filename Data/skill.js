@@ -38,7 +38,7 @@ export const core = [
     {
         title: 'Java',
         source: 'https://www.oracle.com/java/',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676618128/ease-prof/programming%20languages/java_wgplvs.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676727028/ease-prof/programming%20languages/java-icon_ksqmpo.svg',
 
     },
     {
@@ -49,13 +49,13 @@ export const core = [
     {
         title: 'Perl',
         source: 'https://www.perl.org/',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676618173/ease-prof/programming%20languages/perl_cmv7o3.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676728554/ease-prof/programming%20languages/perl_dxqmlx.svg',
 
     },
     {
         title: 'PHP',
         source: 'https://www.php.net/',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676609805/ease-prof/programming%20languages/php_ypkbix.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676728606/ease-prof/programming%20languages/php-icon_l6wqva.svg',
 
     },
     {
@@ -85,7 +85,7 @@ export const core = [
     {
         title: 'Swift',
         source: 'https://developer.apple.com/swift/',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676618478/ease-prof/programming%20languages/swift_piomz3.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676728649/ease-prof/programming%20languages/swift-icon_uijdcv.svg',
 
     },
     {
@@ -112,13 +112,13 @@ export const frontend = [
     {
         title: 'Sass',
         source: 'https://sass-lang.com/',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676618619/ease-prof/others/sass_htotpj.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676728717/ease-prof/programming%20languages/sass-1_e2j4kh.svg',
 
     },
     {
         title: 'TailwindCSS',
         source: 'https://tailwindcss.com/',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676618656/ease-prof/others/tailwind-css_ougrjy.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676728764/ease-prof/programming%20languages/tailwindcss_ypanrz.svg',
 
     },
     {
@@ -142,7 +142,7 @@ export const frontend = [
     {
         title: 'NextJs',
         source: 'https://nextjs.org/docs',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676619139/ease-prof/frameworks/Rlogical-Blog-Images-thumbnail_dwvsfn.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676728805/ease-prof/programming%20languages/next-js_dx85pb.svg',
 
     },
     {
@@ -154,7 +154,7 @@ export const frontend = [
     {
         title: 'NuxtJs',
         source: 'https://nuxtjs.org/',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676620074/ease-prof/databases/nuxt-js-icon_amzcrx.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676728840/ease-prof/programming%20languages/nuxt-2_wdmise.svg',
 
     },
     {
@@ -172,13 +172,13 @@ export const frontend = [
     {
         title: 'JQuery',
         source: 'https://jquery.com/',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676619273/ease-prof/frameworks/jquery_sw4521.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676728871/ease-prof/programming%20languages/jquery-4_pwnyqw.svg',
 
     },
     {
         title: 'Material UI',
         source: 'https://mui.com/',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676619464/ease-prof/frameworks/pngwing.com_drv9v2.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676728908/ease-prof/programming%20languages/material-ui-1_vqf8is.svg',
 
     },
     {
@@ -190,13 +190,13 @@ export const frontend = [
     {
         title: 'Webpack',
         source: 'https://webpack.js.org/',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676620289/ease-prof/databases/webpack_lmjb93.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676728935/ease-prof/programming%20languages/webpack-icon_w126yb.svg',
 
     },
     {
         title: 'Svelte',
         source: 'https://svelte.dev/',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676620416/ease-prof/databases/svelte-icon_x1bosr.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676728977/ease-prof/programming%20languages/svelte-1_ympnt9.svg',
 
     },
 ];
@@ -205,13 +205,13 @@ export const backend = [
     {
         title: 'NodeJS',
         source: 'https://nodejs.org/en/',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676620637/ease-prof/frameworks/node-js_df7mei.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676729013/ease-prof/programming%20languages/nodejs-icon_xl8kno.svg',
 
     },
     {
         title: 'Express',
         source: 'https://expressjs.com/',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676620620/ease-prof/frameworks/icons8-express-js-480_lto1gb.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676729086/ease-prof/programming%20languages/icons8-express-js_j8xma8.svg',
 
     },
     {
@@ -223,7 +223,7 @@ export const backend = [
     {
         title: 'GraphQL',
         source: 'https://graphql.org/',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676619951/ease-prof/databases/graphql_pwrmyk.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676729116/ease-prof/programming%20languages/graphql-logo-2_oojic0.svg',
 
     },
     {
@@ -241,13 +241,13 @@ export const backend = [
     {
         title: 'MongoDB',
         source: 'https://www.mongodb.com/',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676619690/ease-prof/databases/mongodb_slx9rv.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676729142/ease-prof/programming%20languages/mongodb-icon-1_j4gilp.svg',
 
     },
     {
         title: 'MySQL',
         source: 'https://www.mysql.com/',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676619816/ease-prof/databases/mysql_iz5fdu.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676729166/ease-prof/programming%20languages/mysql-6_ucn6fm.svg',
 
     },
     {
@@ -259,19 +259,19 @@ export const backend = [
     {
         title: 'Firebase',
         source: 'https://firebase.google.com/',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676620746/ease-prof/frameworks/firebase_q5zniy.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676729196/ease-prof/programming%20languages/firebase-2_j0abc8.svg',
 
     },
     {
         title: 'Appwrite',
         source: 'https://appwrite.io/',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676620829/ease-prof/frameworks/appwrite-logo-D33B39992A-seeklogo.com_lrqxri.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676729271/ease-prof/programming%20languages/appwriteio-icon_rnaerj.svg',
 
     },
     {
         title: 'Heroku',
         source: 'https://www.heroku.com/',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676620865/ease-prof/frameworks/heroku_acdxj0.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676729297/ease-prof/programming%20languages/heroku-4_lpjrcz.svg',
 
     },
     {
@@ -283,7 +283,7 @@ export const backend = [
     {
         title: 'Supabase',
         source: 'https://supabase.io/',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676620916/ease-prof/frameworks/supabase-logo-DCC676FFE2-seeklogo.com_dmfwds.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676729422/ease-prof/programming%20languages/supabase-seeklogo.com_teiq6c.svg',
 
     },
 ]
@@ -292,13 +292,13 @@ export const other = [
     {
         title: 'NET',
         source: 'https://dotnet.microsoft.com/en-us/',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676621087/ease-prof/frameworks/Microsoft_.NET_logo_f58zou.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676729818/ease-prof/programming%20languages/dotnet-icon_zej18c.svg',
 
     },
     {
         title: 'Django',
         source: 'https://www.djangoproject.com/',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676619569/ease-prof/frameworks/django_dci3yl.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676729849/ease-prof/programming%20languages/django_crewxf.svg',
 
     },
     {
@@ -310,7 +310,31 @@ export const other = [
     {
         title: 'Flutter',
         source: 'https://flutter.dev/',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676621132/ease-prof/frameworks/flutter_kuu8xc.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676729893/ease-prof/programming%20languages/flutter_vtknfm.svg',
+
+    },
+    {
+        title: 'Postman',
+        source: 'https://www.postman.com/',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676726456/ease-prof/others/postman_ks3gcy.svg',
+
+    },
+    {
+        title: 'Git',
+        source: 'https://git-scm.com/',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676726456/ease-prof/others/git_xzurom.svg',
+
+    },
+    {
+        title: 'Mongoose',
+        source: 'https://mongoosejs.com/',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676729957/ease-prof/programming%20languages/icons8-mongoose_iuaxod.svg',
+
+    },
+    {
+        title: 'Wordpress',
+        source: 'https://wordpress.org/documentation/',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676729989/ease-prof/programming%20languages/wordpress-blue_ltrvxt.svg',
 
     },
 ]
@@ -319,42 +343,42 @@ export const software = [
     {
         title: 'Photoshop',
         source: 'https://www.adobe.com/uk/products/photoshop.html',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676609820/ease-prof/tools/photoshop_brpjne.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676730022/ease-prof/programming%20languages/adobe-photoshop-2_sgivl3.svg',
 
     },
     {
         title: 'Illustrator',
         source: 'https://www.profileme.dev/adobe.com/uk/products/illustrator.html',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676621195/ease-prof/tools/illustrator_xvrt88.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676730058/ease-prof/programming%20languages/adobe-illustrator-cc-icon_shwiil.svg',
 
     },
     {
         title: 'After Effects',
         source: 'https://www.adobe.com/uk/products/aftereffects.html',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676609820/ease-prof/tools/after-effects_quvcvt.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676730090/ease-prof/programming%20languages/after-effects-1_wzarae.svg',
 
     },
     {
         title: 'Premiere Pro',
         source: 'https://www.adobe.com/uk/products/premiere.html',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676621247/ease-prof/tools/adobe-premiere-pro_weajwn.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676730117/ease-prof/programming%20languages/premiere-pro-cc_zhznfg.svg',
 
     },
     {
         title: 'XD',
         source: 'https://www.adobe.com/uk/products/xd.html',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676609820/ease-prof/tools/adobe-xd_ihk4ei.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676730145/ease-prof/programming%20languages/adobe-xd-2_qpos0m.svg',
 
     },
     {
         title: 'Figma',
         source: 'https://www.figma.com/',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676621363/ease-prof/tools/figma_dvtlsf.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676730196/ease-prof/programming%20languages/icons8-figma_ikwot6.svg',
 
     },
     {
         title: 'Sketch',
         source: 'https://www.sketch.com/',
-        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676621308/ease-prof/tools/sketch_paey73.png',
+        img: 'https://res.cloudinary.com/dreamlist/image/upload/v1676730221/ease-prof/programming%20languages/sketch-2_kj7bdk.svg',
     },
 ]
