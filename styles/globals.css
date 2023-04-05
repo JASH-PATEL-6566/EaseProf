@@ -187,7 +187,8 @@ textarea {
     margin-block: 0.7em;
 }
 
-.normal-input input {
+.normal-input input,
+.normal-input textarea {
     background-color: rgb(24, 24, 36, 1);
     border-style: none;
     outline: none;
@@ -308,4 +309,21 @@ textarea {
     border-bottom: 3px solid rgb(0, 166, 255) !important;
     border-radius: 1px !important;
     color: rgb(119, 205, 252) !important;
+}
+
+.contact_us tr td {
+    text-transform: uppercase;
+}
+
+.input_contact {
+    width: 30em;
+}
+
+.btn_new {
+    font-size: 1.18em;
+    padding: 0.3em 1em;
+    border-style: none;
+    border: 2px solid black;
+    border-radius: 0.3em;
+    cursor: pointer;
 }

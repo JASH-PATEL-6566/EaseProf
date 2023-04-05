@@ -2,6 +2,11 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  env: {
+    EMAIL_SERVICE_ID: "easeprof_contactus",
+    EMAIL_TEMPLATE_ID: "template_1plwyu4",
+    EMAIL_PUBLIC_KEY: "fLPGwHB1FRsrCxeCk",
+  },
   images: {
     remotePatterns: [
       {
