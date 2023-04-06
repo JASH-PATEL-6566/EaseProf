@@ -5,7 +5,7 @@ import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Input from '../../Components/Input/Input';
-import InstagramIcon from '@mui/icons-material/Instagram';
+//import InstagramIcon from '@mui/icons-material/Instagram';
 
 function ContactUs() {
     const form = useRef();
